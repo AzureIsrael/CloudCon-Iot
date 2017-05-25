@@ -8,11 +8,15 @@ In this lab you are going to connect Particle Photon device to Azure IoT hub, pe
 2. Microsoft Azure Account - [sign up for 200$ free azure account](https://azure.microsoft.com/en-us/free/).
 3. Power BI Account - [sign up for free 60-day trail Power BI Pro](https://powerbi.microsoft.com/en-us/get-started/).
 
+## Lab Steps and system architecure
+![Lab Steps and system architecure](/img/lab.png)
 
 ## Step 1 - Get Started with your Photon at www.particle.io/start
 Follow instructions on Particle Photon start page - [http://www.particle.io/start](www.particle.io/start)
 ![Particle Photon Kit](img/photon-kit-new.jpg)
+Make sure you connect to the correct Photon wifi!
 
+![Connect to photon wifi](img/photon3.jpeg)
 After this you should be able to control your Photon from your Mobile and have a particle cloud account.
 
 ## Step 2 - Provision Iot Hub on Azure and integrate with Particle cloud
