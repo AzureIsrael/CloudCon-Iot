@@ -9,7 +9,7 @@ In this lab you are going to connect Particle Photon device to Azure IoT hub, pe
 3. Power BI Account - [sign up for free 60-day trail Power BI Pro](https://powerbi.microsoft.com/en-us/get-started/).
 
 ## Lab Steps and system architecure
-![Lab Steps and system architecure](/img/lab.png)
+![Lab Steps and system architecure](img/lab.png)
 
 ## Step 1 - Get Started with your Photon at www.particle.io/start
 Follow instructions on Particle Photon start page - [http://www.particle.io/start](www.particle.io/start)
