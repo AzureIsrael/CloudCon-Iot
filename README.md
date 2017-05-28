@@ -23,7 +23,8 @@ After this you should be able to control your Photon from your Mobile and have a
 
 ## Step 2 - Provision Iot Hub on Azure and integrate with Particle cloud
 1. Open Azure Portal (https://portal.azure.com)https://portal.azure.com.
-2. Open Azure Cloud shell
+2. Open Azure Cloud shell:
+![Azure CLI](img/azurecli.png)
 3. Create Storage
 4. Type the following commands (replace CloudCon01 with unique name):
 ```
