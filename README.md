@@ -14,7 +14,7 @@ and contact instructor for a code.
 ![Lab Steps and system architecure](img/Lab.png)
 
 ## Step 1 - Get Started with your Photon at www.particle.io/start
-Follow instructions on Particle Photon start page - [http://www.particle.io/start](www.particle.io/start)
+Follow instructions on Particle Photon start page - [https://docs.particle.io/guide/getting-started/start/photon/](https://docs.particle.io/guide/getting-started/start/photon/)
 ![Particle Photon Kit](img/photon-kit-new.jpg)
 Make sure you connect to the correct Photon wifi!
 
@@ -22,7 +22,7 @@ Make sure you connect to the correct Photon wifi!
 After this you should be able to control your Photon from your Mobile and have a particle cloud account.
 
 ## Step 2 - Provision Iot Hub on Azure and integrate with Particle cloud
-1. Open Azure Portal (https://portal.azure.com)https://portal.azure.com.
+1. Open Azure Portal [https://portal.azure.com]https://portal.azure.com.
 2. Open Azure Cloud shell:
 ![Azure CLI](img/azurecli.png)
 3. Create Storage
