@@ -5,7 +5,9 @@ In this lab you are going to connect Particle Photon device to Azure IoT hub, pe
 
 ## What do you need?
 1. [Particle Photon Kit](https://store.particle.io/products/photon-kit).
-2. Microsoft Azure Account - [sign up for 200$ free azure account](https://azure.microsoft.com/en-us/free/).
+2. Microsoft Azure Account - if you don't have enter page:
+[https://www.microsoftazurepass.com](https://www.microsoftazurepass.com)
+and contact instructor for a code.
 3. Power BI Account - [sign up for free 60-day trail Power BI Pro](https://powerbi.microsoft.com/en-us/get-started/).
 
 ## Lab Steps and system architecure
@@ -20,12 +22,21 @@ Make sure you connect to the correct Photon wifi!
 After this you should be able to control your Photon from your Mobile and have a particle cloud account.
 
 ## Step 2 - Provision Iot Hub on Azure and integrate with Particle cloud
-1. Follow this tutorial - [https://docs.particle.io/tutorials/integrations/azure-iot-hub/](https://docs.particle.io/tutorials/integrations/azure-iot-hub/)
+1. Open Azure Portal (https://portal.azure.com)https://portal.azure.com.
+2. Open Azure Cloud shell
+3. Create Storage
+4. Type the following commands (replace CloudCon01 with unique name):
+```
+az provider register -n Microsoft.Devices
+az group create --location westeurope --name CloudCon01
+az iot hub create --name CloudCon01 -g CloudCon01 -l westeurope --sku S1
+```
+4. Follow this tutorial (skip IoT Hub part) - [https://docs.particle.io/tutorials/integrations/azure-iot-hub/](https://docs.particle.io/tutorials/integrations/azure-iot-hub/)
 ![iot hub](img/iothub1.png)
 ![iot hub](img/iothub2.png)
 ![integrate azure iot and particle cloud](img/particle1.png)
 
-2. Type the following json in the "SEND CUSTOM JSON" Tab:
+5. Type the following json in the "SEND CUSTOM JSON" Tab:
 ```
 {
   "LightLevel": "{{L}}",
